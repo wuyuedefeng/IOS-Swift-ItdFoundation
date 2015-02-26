@@ -155,6 +155,34 @@ extension UIView {
     func setSize(size:CGSize)->Void{
         self.frame = rectSetSize(self.frame, size: size)
     }
+    //设置距离左边距离
+    func setLeft_margin(left:CGFloat)->Void{
+        setX(left)
+    }
+    //设置顶部距离
+    func setTop_margin(top:CGFloat)->Void{
+        setY(top)
+    }
+    //设置距离右边距离
+    func setRight_margin(right_margin:CGFloat)->Void{
+        
+        if(self.superview == nil){
+            return
+        }
+        
+        self.setWidth(self.superview!.width() - self.left_x() - right_margin)
+    }
+    //设置距离底部距离
+    func setBottom_margin(bottom_margin:CGFloat)->Void{
+        
+        if(self.superview == nil){
+            return
+        }
+        
+        self.setHeight(self.superview!.height() - self.top_y() - bottom_margin)
+    }
+    
+    
     
     
     private
