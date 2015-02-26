@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B11F0321A9ECDB400C437C3 /* ItdNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11F0311A9ECDB400C437C3 /* ItdNavigationItem.swift */; };
 		4B8030551A9EB23A00097E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8030541A9EB23A00097E2F /* AppDelegate.swift */; };
 		4B8030571A9EB23A00097E2F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8030561A9EB23A00097E2F /* FirstViewController.swift */; };
 		4B8030591A9EB23A00097E2F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8030581A9EB23A00097E2F /* SecondViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B11F0311A9ECDB400C437C3 /* ItdNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItdNavigationItem.swift; sourceTree = "<group>"; };
 		4B80304F1A9EB23A00097E2F /* IOS_ItdFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_ItdFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8030531A9EB23A00097E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B8030541A9EB23A00097E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				4B80307B1A9EB4B100097E2F /* ItdViewController.swift */,
 				4B80307F1A9EBBBA00097E2F /* ItdNavigationController.swift */,
+				4B11F0311A9ECDB400C437C3 /* ItdNavigationItem.swift */,
 			);
 			path = ItdBaseUIKit;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				4B8030801A9EBBBA00097E2F /* ItdNavigationController.swift in Sources */,
 				4B80307C1A9EB4B100097E2F /* ItdViewController.swift in Sources */,
+				4B11F0321A9ECDB400C437C3 /* ItdNavigationItem.swift in Sources */,
 				4B8030591A9EB23A00097E2F /* SecondViewController.swift in Sources */,
 				4B8030551A9EB23A00097E2F /* AppDelegate.swift in Sources */,
 				4B8030791A9EB32600097E2F /* FourViewController.swift in Sources */,
