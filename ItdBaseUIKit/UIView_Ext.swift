@@ -182,8 +182,46 @@ extension UIView {
         self.setHeight(self.superview!.height() - self.top_y() - bottom_margin)
     }
     
+    //
+    func positionUnderView(view:UIView, padding:CGFloat)->(Void){
+        self.frame = view.frame
+        self.setY(view.y() + view.height() + padding)
+    }
     
+    //获取view所在的viewController
+    func viewController()->UIViewController?{
+        if var next:UIView = self.superview{
+            do{
+                if var nextResponder:UIResponder = next.nextResponder()
+                {
+                    if(nextResponder.isKindOfClass(UIViewController))
+                    {
+                        return nextResponder as? UIViewController
+                    }
+                }
+            }while(self.superview != nil)
+        }
+        return nil
+    }
     
+    //将视图变成圆形
+    func itd_becomeCircleView()->Void{
+        self.layer.cornerRadius = self.height()/2.0
+        self.layer.masksToBounds = true
+    }
+    
+    //获取父类为给定类型的父窗口
+    func itd_superView_ofSuperClassType(aClass:AnyClass)->UIView?{
+        if var spView = self.superview{
+            if (spView.isKindOfClass(aClass)){
+                return spView
+            }else{
+                return spView.itd_superView_ofSuperClassType(aClass)
+            }
+        }else{
+            return nil
+        }
+    }
     
     private
     //私有 x
