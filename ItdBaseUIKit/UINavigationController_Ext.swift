@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ItdNavigationController: UINavigationController {
+extension UINavigationController {
     
     //获取rootViewController
     func itd_rootViewController() -> UIViewController?{

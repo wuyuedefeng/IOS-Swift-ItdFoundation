@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ItdNavigationItem: UINavigationItem {
+extension UINavigationItem {
     
     //锁定导航栏左边按钮被点击
     func itd_lockLeftItem()->Void{
