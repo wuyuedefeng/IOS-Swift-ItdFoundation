@@ -26,7 +26,7 @@ extension UINavigationController {
         for viewCtr in self.viewControllers{
             if(viewCtr.isKindOfClass(viewControllerClass))
             {
-                self.popToViewController(viewCtr as UIViewController, animated:true)
+                self.popToViewController(viewCtr as! UIViewController, animated:true)
                 return true
             }
         }

@@ -46,7 +46,7 @@ extension UINavigationItem {
         {
             barItem?.enumerateObjectsUsingBlock({ (obj, idx, stop) -> Void in
                 if(obj.isKindOfClass(UIBarButtonItem) || obj.isMemberOfClass(UIBarButtonItem)){
-                   var barButtonItem:UIBarButtonItem = obj as UIBarButtonItem
+                   var barButtonItem:UIBarButtonItem = obj as! UIBarButtonItem
                     barButtonItem.enabled = !isLock
                 }
             })
