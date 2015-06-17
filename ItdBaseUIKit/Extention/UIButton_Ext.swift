@@ -9,5 +9,11 @@
 import UIKit
 
 //extension UIButton{
-//    func itd_clickEventAndDoBlock(event:UIControlEvents, )
+//    
+//    
+//    func _buttonClickDo_itd() -> Void{
+//        blockClick:VoidBlock
+//    }
+//    
+//    func itd_clickEvent_andDoBlock(event:UIControlEvents, doClosure())
 //}

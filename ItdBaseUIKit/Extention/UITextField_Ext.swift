@@ -22,11 +22,11 @@ extension UITextField {
             UInt(OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         )
         
-        self.addTarget(self, action: "_itd_textFieldTextLengthLimit", forControlEvents: UIControlEvents.EditingChanged)
+        self.addTarget(self, action: "_textFieldTextLengthLimit_itd", forControlEvents: UIControlEvents.EditingChanged)
         
     }
     
-    func _itd_textFieldTextLengthLimit() ->Void{
+    func _textFieldTextLengthLimit_itd() ->Void{
 
         let lengthNumber:NSString = objc_getAssociatedObject(self, &(AssociatedKeys.kLimitTextLengthKey)) as! NSString
 
