@@ -12,14 +12,6 @@ typealias VoidBlock = () -> () //或者 () -> Void
 
 extension UIButton{
     
-    func _buttonClickDo_itd() -> Void{
-        if let cl = objc_getAssociatedObject(self, &(AssociatedKeys.overViewKeyButtonClick)) as? VoidClosureWrapper {
-            if let inDoClosure = cl.closure{
-                inDoClosure()
-            }
-        }
-    }
-    
     func itd_clickDoBlock(doBlock:VoidBlock){
         
         objc_setAssociatedObject(
@@ -32,6 +24,13 @@ extension UIButton{
         self.addTarget(self, action: "_buttonClickDo_itd", forControlEvents: UIControlEvents.TouchUpInside)
     }
     
+    func _buttonClickDo_itd() -> Void{
+        if let cl = objc_getAssociatedObject(self, &(AssociatedKeys.overViewKeyButtonClick)) as? VoidClosureWrapper {
+            if let inDoClosure = cl.closure{
+                inDoClosure()
+            }
+        }
+    }
     
     private class VoidClosureWrapper {
         var closure: (() -> Void)?
