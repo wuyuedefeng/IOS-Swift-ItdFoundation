@@ -24,6 +24,8 @@
 		4B8030771A9EB31900097E2F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8030761A9EB31900097E2F /* ThirdViewController.swift */; };
 		4B8030791A9EB32600097E2F /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8030781A9EB32600097E2F /* FourViewController.swift */; };
 		4B96A1861B31696D0049FCA7 /* NSDate_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96A1851B31696D0049FCA7 /* NSDate_Ext.swift */; };
+		4B96A1881B317A360049FCA7 /* NSDictionary_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96A1871B317A360049FCA7 /* NSDictionary_Ext.swift */; };
+		4B96A18A1B317B8B0049FCA7 /* NSString_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96A1891B317B8B0049FCA7 /* NSString_Ext.swift */; };
 		4BD09C8A1B31087100500078 /* UIButton_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD09C891B31087100500078 /* UIButton_Ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		4B8030761A9EB31900097E2F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		4B8030781A9EB32600097E2F /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 		4B96A1851B31696D0049FCA7 /* NSDate_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate_Ext.swift; sourceTree = "<group>"; };
+		4B96A1871B317A360049FCA7 /* NSDictionary_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDictionary_Ext.swift; sourceTree = "<group>"; };
+		4B96A1891B317B8B0049FCA7 /* NSString_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSString_Ext.swift; sourceTree = "<group>"; };
 		4BD09C891B31087100500078 /* UIButton_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton_Ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +87,9 @@
 		4B106C1C1B2E73E200A4AC9D /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				4B96A1891B317B8B0049FCA7 /* NSString_Ext.swift */,
 				4B96A1851B31696D0049FCA7 /* NSDate_Ext.swift */,
+				4B96A1871B317A360049FCA7 /* NSDictionary_Ext.swift */,
 				4B106C1D1B2E73E200A4AC9D /* UIColor_Ext.swift */,
 				4B106C211B2E73E200A4AC9D /* UIView_Ext.swift */,
 				4BD09C891B31087100500078 /* UIButton_Ext.swift */,
@@ -277,11 +283,13 @@
 				4B8030551A9EB23A00097E2F /* AppDelegate.swift in Sources */,
 				4B106C261B2E73E200A4AC9D /* UINavigationItem_Ext.swift in Sources */,
 				4B8030791A9EB32600097E2F /* FourViewController.swift in Sources */,
+				4B96A18A1B317B8B0049FCA7 /* NSString_Ext.swift in Sources */,
 				4B8030771A9EB31900097E2F /* ThirdViewController.swift in Sources */,
 				4B106C251B2E73E200A4AC9D /* UINavigationController_Ext.swift in Sources */,
 				4B8030571A9EB23A00097E2F /* FirstViewController.swift in Sources */,
 				4B96A1861B31696D0049FCA7 /* NSDate_Ext.swift in Sources */,
 				4B106C241B2E73E200A4AC9D /* UIColor_Ext.swift in Sources */,
+				4B96A1881B317A360049FCA7 /* NSDictionary_Ext.swift in Sources */,
 				4BD09C8A1B31087100500078 /* UIButton_Ext.swift in Sources */,
 				4B106C271B2E73E200A4AC9D /* UITableViewCell_Ext.swift in Sources */,
 				4B106C291B2E73E200A4AC9D /* ItdViewController.swift in Sources */,
