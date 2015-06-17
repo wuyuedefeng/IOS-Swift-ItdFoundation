@@ -8,11 +8,9 @@
 
 import UIKit
 
-typealias VoidBlock = () -> () //或者 () -> Void
-
 extension UIButton{
     
-    func itd_clickDoBlock(doBlock:VoidBlock){
+    func itd_clickDoBlock(doBlock:() -> ()){
         
         objc_setAssociatedObject(
             self,
