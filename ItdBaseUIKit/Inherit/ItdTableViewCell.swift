@@ -7,7 +7,22 @@
 //
 
 import UIKit
+typealias TableCellLayoutDoClosure = (ItdTableViewCell) -> ()
 
 class ItdTableViewCell: UITableViewCell {
+    
+    private var _layoutSubViewEndDoClosure_itd:TableCellLayoutDoClosure?
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        if let closure = self._layoutSubViewEndDoClosure_itd{
+            closure(self)
+        }
+    }
+    
+    public func itd_layoutSubViewEndDoClosure(doClosure:TableCellLayoutDoClosure) -> Void{
+        self._layoutSubViewEndDoClosure_itd = doClosure
+    }
     
 }
