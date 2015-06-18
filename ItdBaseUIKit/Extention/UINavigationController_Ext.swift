@@ -11,7 +11,7 @@ import UIKit
 extension UINavigationController {
     
     //获取rootViewController
-    func itd_rootViewController() -> UIViewController?{
+    public func itd_rootViewController() -> UIViewController?{
         
         if(self.viewControllers.count > 0){
             return self.viewControllers[0] as? UIViewController
@@ -21,7 +21,7 @@ extension UINavigationController {
     }
     
     //跳转到指定的ViewController
-    func itd_popToViewControllerWithClass(viewControllerClass:AnyClass, animated:Bool)->Bool
+    public func itd_popToViewControllerWithClass(viewControllerClass:AnyClass, animated:Bool)->Bool
     {
         for viewCtr in self.viewControllers{
             if(viewCtr.isKindOfClass(viewControllerClass))

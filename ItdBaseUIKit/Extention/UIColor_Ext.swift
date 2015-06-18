@@ -16,7 +16,7 @@ extension UIColor {
     *
     *  @return color类型的数据
     */
-    class func itd_colorWithHexString(hexString:NSString) -> UIColor {
+    public class func itd_colorWithHexString(hexString:NSString) -> UIColor {
         return self.itd_colorWithHexString(hexString, alpha: 1.0)
     }
     /**
@@ -27,7 +27,7 @@ extension UIColor {
     *
     *  @return color类型的数据
     */
-    class func itd_colorWithHexString(hexString:NSString,alpha:CGFloat) -> UIColor {
+    public class func itd_colorWithHexString(hexString:NSString,alpha:CGFloat) -> UIColor {
         
         var inHexString:NSString?
         
@@ -60,7 +60,7 @@ extension UIColor {
     *  @param  hexColor:十六进制颜色值。
     *  return  UIColor。
     */
-    class func itd_colorWithHexInteger(hexInteger:NSInteger,alpha:CGFloat) ->UIColor {
+    public class func itd_colorWithHexInteger(hexInteger:NSInteger,alpha:CGFloat) ->UIColor {
         return UIColor(red: ((CGFloat) ((hexInteger & 0xFF0000) >> 16)) / 0xFF,
             green: ((CGFloat) ((hexInteger & 0xFF00)   >> 8))  / 0xFF,
             blue: ((CGFloat)  (hexInteger & 0xFF))            / 0xFF,

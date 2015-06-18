@@ -10,7 +10,7 @@ import UIKit
 
 extension UIButton{
     
-    func itd_clickDoBlock(doBlock:() -> ()){
+    public func itd_clickDoBlock(doBlock:() -> ()){
         
         objc_setAssociatedObject(
             self,

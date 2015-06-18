@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F312782F-CC61-46EC-9020-681C97B5410C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>IOS_ItdFoundation</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2104D96597DAD73610F4D3D707CD6FB5A1F35391</key>
 		<string>https://github.com/wuyuedefeng/IOS-Swift-ItdFoundation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IOS_ItdFoundation.xcodeproj/project.xcworkspace</string>
+	<string>IOS_ItdFoundation.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2104D96597DAD73610F4D3D707CD6FB5A1F35391</key>

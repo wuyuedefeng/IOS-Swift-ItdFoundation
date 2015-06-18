@@ -14,7 +14,7 @@ extension NSDate{
     *
     *  @return 2014-07-28 16:46:54
     */
-    class func itd_string_of_current_DateTime() -> String{
+    public class func itd_string_of_current_DateTime() -> String{
         return NSDate()._convertDateToStringWithFormat_itd("yyyy-MM-dd HH:mm:ss")
     }
     
@@ -23,7 +23,7 @@ extension NSDate{
     *
     *  @return 时间字符串
     */
-    class func itd_string_of_current_Date() -> String {
+    public class func itd_string_of_current_Date() -> String {
        return NSDate()._convertDateToStringWithFormat_itd("yyyy-MM-dd")
     }
     
@@ -41,7 +41,7 @@ extension NSDate{
     /**
     *  根据字符串转换格式为日期类型
     */
-    class func itd_date_from_String(dateString:String, format:String) -> NSDate? {
+    public class func itd_date_from_String(dateString:String, format:String) -> NSDate? {
         var dateFormatter:NSDateFormatter = NSDateFormatter()
         dateFormatter.timeZone = NSTimeZone.localTimeZone()
         dateFormatter.dateFormat = format
@@ -55,7 +55,7 @@ extension NSDate{
     *
     *  @return 时间字符串
     */
-    func itd_string_with_formatString(format:String) -> String? {
+    public func itd_string_with_formatString(format:String) -> String? {
         var dateFormatter = NSDateFormatter()
         dateFormatter.locale = NSLocale.currentLocale()
         dateFormatter.timeZone = NSTimeZone.localTimeZone()

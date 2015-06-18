@@ -10,7 +10,7 @@ import Foundation
 
 extension NSDictionary {
     
-    func itd_jsonString() -> NSString? {
+    public func itd_jsonString() -> NSString? {
         var error:NSError?
         if let data = NSJSONSerialization.dataWithJSONObject(self, options: NSJSONWritingOptions.PrettyPrinted, error: &error){
             return NSString(data: data, encoding: NSUTF8StringEncoding)

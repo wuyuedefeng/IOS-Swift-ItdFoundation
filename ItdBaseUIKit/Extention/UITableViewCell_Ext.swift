@@ -10,7 +10,7 @@ import UIKit
 
 extension UITableViewCell {
 
-    func itd_tableView()->UITableView?{
+    public func itd_tableView()->UITableView?{
         if var tableView = self.itd_superView_ofSuperClassType(UITableView) as? UITableView{
             return tableView
         }else{
@@ -19,7 +19,7 @@ extension UITableViewCell {
     }
     
     
-    func itd_indexPath()->NSIndexPath?{
+    public func itd_indexPath()->NSIndexPath?{
         if var tableView = self.itd_tableView(){
             if var indexPath = tableView.indexPathForCell(self){
                 return indexPath as NSIndexPath
