@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 TX-009. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension NSString {
     
@@ -20,5 +20,11 @@ extension NSString {
             }
         }
         return nil
+    }
+    
+    public func itd_sizeWithFont(font:UIFont, maxSize:CGSize)->CGSize{
+        var attrs = [NSFontAttributeName:font]
+        var size:CGSize = self.boundingRectWithSize(maxSize, options: NSStringDrawingOptions.UsesLineFragmentOrigin, attributes: attrs, context: nil).size
+        return size
     }
 }

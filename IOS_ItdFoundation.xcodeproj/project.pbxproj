@@ -15,6 +15,7 @@
 		4B106C291B2E73E200A4AC9D /* ItdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B106C231B2E73E200A4AC9D /* ItdViewController.swift */; };
 		4B13E8D41B3258FB007CA085 /* ItdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13E8D31B3258FB007CA085 /* ItdTableViewCell.swift */; };
 		4B17DDE21B3008C100E154E9 /* UITextField_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17DDE11B3008C100E154E9 /* UITextField_Ext.swift */; };
+		4B2EFB501B3D3EB100E0B261 /* UILabel_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2EFB4F1B3D3EB100E0B261 /* UILabel_Ext.swift */; };
 		4B8030551A9EB23A00097E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8030541A9EB23A00097E2F /* AppDelegate.swift */; };
 		4B8030571A9EB23A00097E2F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8030561A9EB23A00097E2F /* FirstViewController.swift */; };
 		4B8030591A9EB23A00097E2F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8030581A9EB23A00097E2F /* SecondViewController.swift */; };
@@ -49,6 +50,7 @@
 		4B106C231B2E73E200A4AC9D /* ItdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItdViewController.swift; sourceTree = "<group>"; };
 		4B13E8D31B3258FB007CA085 /* ItdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItdTableViewCell.swift; sourceTree = "<group>"; };
 		4B17DDE11B3008C100E154E9 /* UITextField_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField_Ext.swift; sourceTree = "<group>"; };
+		4B2EFB4F1B3D3EB100E0B261 /* UILabel_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel_Ext.swift; sourceTree = "<group>"; };
 		4B80304F1A9EB23A00097E2F /* IOS_ItdFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_ItdFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8030531A9EB23A00097E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B8030541A9EB23A00097E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				4B96A1871B317A360049FCA7 /* NSDictionary_Ext.swift */,
 				4B106C1D1B2E73E200A4AC9D /* UIColor_Ext.swift */,
 				4B106C211B2E73E200A4AC9D /* UIView_Ext.swift */,
+				4B2EFB4F1B3D3EB100E0B261 /* UILabel_Ext.swift */,
 				4BD09C891B31087100500078 /* UIButton_Ext.swift */,
 				4B17DDE11B3008C100E154E9 /* UITextField_Ext.swift */,
 				4B106C201B2E73E200A4AC9D /* UITableViewCell_Ext.swift */,
@@ -287,6 +290,7 @@
 				4B106C261B2E73E200A4AC9D /* UINavigationItem_Ext.swift in Sources */,
 				4B8030791A9EB32600097E2F /* FourViewController.swift in Sources */,
 				4B13E8D41B3258FB007CA085 /* ItdTableViewCell.swift in Sources */,
+				4B2EFB501B3D3EB100E0B261 /* UILabel_Ext.swift in Sources */,
 				4B96A18A1B317B8B0049FCA7 /* NSString_Ext.swift in Sources */,
 				4B8030771A9EB31900097E2F /* ThirdViewController.swift in Sources */,
 				4B106C251B2E73E200A4AC9D /* UINavigationController_Ext.swift in Sources */,
