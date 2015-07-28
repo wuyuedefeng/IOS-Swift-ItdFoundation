@@ -36,7 +36,7 @@ class FirstViewController: ItdViewController {
         var date = NSDate.itd_date_from_String("2012-10-10", format: "yyyy-MM-dd")
         println(date?.itd_string_with_formatString("yyyy-MM-dd"))
         
-        var abc = NSString(string: "{name:'zhangsan'}");
+        var abc = NSString(string: "{\"name\": \"zhangsan\"}");
         println(abc.itd_jsonObject())
         
     }
