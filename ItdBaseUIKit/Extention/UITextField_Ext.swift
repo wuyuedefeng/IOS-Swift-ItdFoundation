@@ -10,7 +10,7 @@ import UIKit
 
 extension UITextField {
     
-    
+    //限制输入框长度
     public func itd_limitTextLength(length:Int) -> Void{
         
         var str:NSString = NSString(string: String(length))
@@ -40,6 +40,16 @@ extension UITextField {
             self.text = self.text.substringToIndex(len)
         }
 
+    }
+    //安全设置文本框的值
+    public func itd_setText_Safe(#text:String?) -> Bool{
+        if text != nil{
+            self.text = text
+        }else{
+            self.text = ""
+            return false
+        }
+        return true
     }
     
     private struct AssociatedKeys {

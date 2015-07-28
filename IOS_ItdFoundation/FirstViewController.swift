@@ -20,6 +20,7 @@ class FirstViewController: ItdViewController {
         
         var textField:UITextField = UITextField(frame: CGRectMake(50, 100, 90, 30));
         textField.backgroundColor = UIColor.redColor()
+        textField.itd_setText_Safe(text: "semse")
         textField.itd_limitTextLength(4)
         self.view.addSubview(textField)
         
